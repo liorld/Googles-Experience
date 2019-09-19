@@ -87,7 +87,7 @@ message CommEventLog
 
 3.2  变量修饰符required 、optional、repeated
 变量修饰符的作用是修饰变量，确定变量是否必须赋值。
-![](https://github.com/liorld/Googles-Experience/blob/master/google%20protocol%20buffer/protocol1.jpg?raw=true)
+![](https://raw.githubusercontent.com/liorld/Googles-Experience/master/google%20protocol%20buffer/protocol1.jpg)
 3.3  基本数据类型
 基本数据类型用于定义变量类型。与编程语言的中的变量类似，名称稍有不同，含义一致。
 ![](/protocol2.jpg)
