@@ -39,8 +39,9 @@ if (evnetlog.ParseFromArray(buff,bufflen)==true)
 
 string strtime=evnetlog.start_time();
 
-3         .proto编写格式
-3.1  编写示例
+### 3         .proto编写格式
+
+#### 3.1  编写示例
 Proto文件开头定义一个包名，即命名空间，为了避免不项目的命名冲突问题。然后用关键字message来定制结构体；
 
 package protocobuff_Demo;//包名
@@ -85,9 +86,9 @@ message CommEventLog
 
 }
 
-3.2  变量修饰符required 、optional、repeated
+#### 3.2  变量修饰符required 、optional、repeated
 变量修饰符的作用是修饰变量，确定变量是否必须赋值。
 ![](https://raw.githubusercontent.com/liorld/Googles-Experience/master/google%20protocol%20buffer/protocol1.jpg)
-3.3  基本数据类型
+#### 3.3  基本数据类型
 基本数据类型用于定义变量类型。与编程语言的中的变量类似，名称稍有不同，含义一致。
 ![](protocol2.jpg)
