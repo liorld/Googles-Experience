@@ -90,6 +90,4 @@ message CommEventLog
 ![](https://raw.githubusercontent.com/liorld/Googles-Experience/master/google%20protocol%20buffer/protocol1.jpg)
 3.3  基本数据类型
 基本数据类型用于定义变量类型。与编程语言的中的变量类似，名称稍有不同，含义一致。
-![](/protocol2.jpg)
-
-![pic](https://raw.githubusercontent.com/linux-downey/bloc_test/master/picture/Makedown/Makedown.png) 
+![](protocol2.jpg)
